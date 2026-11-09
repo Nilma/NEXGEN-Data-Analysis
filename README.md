@@ -41,17 +41,4 @@ Open `notebooks/04_SQL_and_Python.ipynb`. When prompted, provide your local MySQ
 - `solutions/`: worked teacher solutions (lesson 4 solution uses the `engine` created in its student notebook).
 - `requirements.txt`: Python dependencies.
 
-## Teaching sequence
 
-1. Python fundamentals and first DataFrame.
-2. Inspect, filter, sort and aggregate CSV data.
-3. Detect and address data quality issues.
-4. Query MySQL and load SQL results into pandas.
-5. Join, aggregate, plot and interpret NEXGEN data.
-
-## Notes
-
-- The source database is intentionally small: **4 consultants, 2 customers, 2 projects, 5 assignments and 10 timesheets**. Use it to learn the workflow, not for meaningful statistical generalisation.
-- The MySQL schema contains additional Skill and ConsultantSkill tables; these are available in MySQL but are not needed for the introductory CSV exercises.
-- Project revenue in exercises is `SUM(Hours * HourlyRate)`. It is not profit, and does not imply the project is complete.
-- Do not commit credentials or personally identifying production data to GitHub.
